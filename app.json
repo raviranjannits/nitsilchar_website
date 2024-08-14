@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "NITSEvent",
+    "slug": "NITSEvent",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/icon.png",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "assets/*",
+      "node_modules/@expo/vector-icons/fonts/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.rajivsah240.NITSEvent"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a7d6f889-6bf8-458a-ac87-ac95092f33a4"
+      }
+    }
+  }
+}
